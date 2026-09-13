@@ -11,6 +11,7 @@ hardcoded block of text.
 
 import ast
 import os
+import re
 
 from helpers import repo_path, run_python_script
 

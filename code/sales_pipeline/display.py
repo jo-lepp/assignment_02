@@ -36,14 +36,12 @@ def print_sales_table(cleaned_data: list[dict]) -> None:
     """
     rows = []
 
-    for row in cleaned_data:
+    for entry in cleaned_data:
         rows.append(
             {
-                "date": row["date"],
-                "item": row["item"],
-                "price": f"${row['price']:,.2f}",
-                "qty": row["qty"],
-                "revenue": f"${row['total_revenue']:,.2f}",
+                "date": entry["date"],
+                "item": entry["item"],
+                "price": f"${entry['price']:,.2f}",
             }
         )
 
