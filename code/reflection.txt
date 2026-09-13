@@ -1,12 +1,10 @@
 Write your reflection here.
 
-See reflection.md for what makes a good reflection — be specific, use the
-terminology from this assignment (package, module, ETL, coercion, public API,
-relative import, accumulator, group by, unit vs. integration test), and make it
-actionable.
-
+This assignment was a great opportunity to learn about and practice building a package with different functions.
 Learning how to make a package with modules like the sales_pipeline that had different extract, transform, and display modules was
 a very valuable tool and skill to develop, but I think that I need a little more practice in writing functions across different files
 since keeping track of the variables and keys across different functions (summarize_by item, find_top_item, etc) and knowing which 
 stored lists had specific keys ('units sold' and 'date' tripped me up) versus others was a lot to keep track of, but further practice and maybe making paper visuals of 
 how files are interconnected might help me understand it more.
+It also gave me a chance to practice debugging via integration testing, being able to figure our errors and investigate
+why outputs weren't lining up. This will be very useful in my work outside of class.
